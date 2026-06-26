@@ -102,5 +102,3 @@ def push_to_lemlist():
         return jsonify({'error': str(e)}), 500
 
 
-port = int(os.environ.get('PORT', 8080))
-app.run(host='0.0.0.0', port=port, debug=False)
