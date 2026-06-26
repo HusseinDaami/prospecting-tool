@@ -36,7 +36,7 @@ Just run:
 ```
 python3 app.py
 ```
-Then open http://localhost:5050
+Then open http://localhost:5050 
 
 ---
 
@@ -46,6 +46,7 @@ Then open http://localhost:5050
 - **Campaign ID**: open your campaign in Lemlist, copy the `cam_...` part from the URL
 
 ---
+
 
 ## How to use
 1. Settings tab → enter your API keys
