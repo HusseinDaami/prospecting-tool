@@ -117,6 +117,6 @@ def push_to_lemlist():
 
 
 if __name__ == '__main__':
-    print("\n✅ Prospecting tool is running!")
-    print("👉 Open this in your browser: http://localhost:5050\n")
-    app.run(debug=False, port=5050)
+    port = int(os.environ.get('PORT', 8080))
+    print(f"Starting on port {port}")
+    app.run(debug=False, host='0.0.0.0', port=port)
