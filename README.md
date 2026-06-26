@@ -45,7 +45,9 @@ Then open http://localhost:5050
 - **Lemlist API key**: Lemlist → Settings → Integrations → Generate key
 - **Campaign ID**: open your campaign in Lemlist, copy the `cam_...` part from the URL
 
+
 ---
+
 
 
 ## How to use
